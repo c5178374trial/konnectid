@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "authors": [
+    "Ihar Sivak"
+  ],
+  "description": "Konnedtid test assignment",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "test"
+  ],
+  "license": "private",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.3"
+  }
+}
