@@ -12,7 +12,7 @@ var app = express();
 
 // setup database
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/konnektid-test');
+mongoose.connect('mongodb://192.168.99.100/konnektid-test');
 
 
 var db = mongoose.connection;
