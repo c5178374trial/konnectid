@@ -1,0 +1,11 @@
+database:
+  image: mongo:3
+  ports:
+    - "27017:27017"
+
+backend:
+  build: .
+  volumes:
+    - ".:/usr/src/app"
+  ports:
+    - "3000:3000"
